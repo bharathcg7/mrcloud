@@ -1,11 +1,11 @@
 provider "azurerm" {
   features {}
 
-  subscription_id = "76589609-f356-45d6-9343-cacd37492e24"
+  subscription_id = "97d62e53-6132-48c5-a9be-83072204c44c"
 }
 
 # Define the resource group
-resource "azurerm_resource_group" "Cloudlearning" {
-  name     = "Cloudlearning"
+resource "azurerm_resource_group" "mrcloud" {
+  name     = "mrcloud"
   location = "UKSouth"
 }
